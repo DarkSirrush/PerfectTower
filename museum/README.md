@@ -22,6 +22,11 @@ changing them.
 
 ## Changelog
 
+### v5.0 (Simple Edition)
+
+Not really a version increase, just a very simple script to iterate through all gems and upgrade them.
+MUCH slower than v4.7, but works without Turbo Exec. Pull request was made purely for those that can't make this themselves, but are looking for a museum script.
+
 ### v4.7
 
 Increased the max cycles of the combiner to 50000, so that it is solely FPS limited,
