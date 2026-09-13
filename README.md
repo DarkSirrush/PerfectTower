@@ -129,6 +129,10 @@ This script is very similar to my other autominer: It mines all layers across al
 
 This package combines museum powerstones, *really* slow. It is barely faster than manually doing this. This "update" was made purely so there was a working combiner script, that didn't rely on the defunct Turbo Exec script.
 
+`Import Code:`
+```
+3VdNj5swEP0rEdeuENBtV6qSQ7ta9bSn7a3Zg4GBWsFjZOzNRqs992dVav9YjSEbAiaA8nFYRbLij3l+M/PGNi9OEQmay8L5Mvv54pBIUo6m4yyV53mQAoKgkZtyyWmyDCM9LQlKMxuY9pNpvU6bpBkPSeaGnGduCrJlfL2UtBAKkWLqXM2c2qbeD54hUhI6NuFXJfnsO7CGSWOb4uA2rSm/ag1S0nS07WbU9XDfqJA8vwBVb4fEVAGKuYw/wUPGbUj4BCi52Fhz1s2W14Eo25uMk5grWYuhok9RWvNpDLS/JaEqPjXLKAMiDlB8cyvMeKQ3UGgLTtl+vMPYedTLQxVrClqonu7ohTHdV64fSL5Gd00x5muXFjwHtCJ+rjgaUMpylRVQoaxg44IZRsJADznatdmDJMI4l5NoRVIzfl8h6EH959uWWEI01OvVzFpVu0DaPMV78lzHsZ29v797tDgGt5mgsbKYDP6DQjvXw+CDej5KjCeojkYYhk9E6EGBiLOcCK1GLHm3bf/9qX5WX4LFwujaryOljxwEV3aDfaR3E5JsOuVKRvF83AxyuNUHESuQbi4gASEgLnmcJTVTJGZRfDXpz8+fMt/bQw/Vxoxe741CBgw6gjvBLRE0b6dO1rbUEgGmqouhO0BU53+f+pJbzkKKcMtVt3qGtb29jSqQSfaTiJnNtJbkLwZSy7HUUwPAJqVDntVa+jA29KPrAUfWwtHcg/nCSv7mCPLh+EI+07nU5+nUo+O9P+omvUpstTOV5qXqZwd+2vuk34f5KJzG83H426b32LvIK7v5vG5+Lo18XT++/gc=
+```
 
 ### Details
 
