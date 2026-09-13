@@ -7,7 +7,7 @@
 - [Factory automation](#factory-automation)
 - [Auto mining script V3](#auto-mining-script-v3)
 - [Example miner](#example-miner)
-- [Museum combiner v4](#museum-combiner-v4)
+- [Museum combiner v5](#museum-combiner-v5)
 - [Auto Adventure](#auto-adventure)
 - [Adventure Map](#adventure-map)
 - [Timed Task Looping](#timed-task-looping)
@@ -124,87 +124,33 @@ This script is very similar to my other autominer: It mines all layers across al
 5VVNT8MwDP0t5MCFUjXj4zDBBcENThzphNLU7aK1cZWk6iq0/46SDq3QdGoHNy7WVsfv2X5O/EE0V6IymizfPgjjRqC0v0lcR1EEBXJWhAliEWowccJRasOkcd5rZxO9xrpI3wvE6scB6mxEAhKrDklIMwp0ZVjSsTIlzLoEI7gN8H7r4eXH8LyOEtMfjkWcdbl+s75gejEI7ZXat7bspBQSQpvIxIRtUJaDBCV4mKNBL9utn005NglNwVpQB/5U5FP46XbSqXainnT7l2rS7S/lmD4KB/egwy75vjwimypQF8uxrJgSGuUvC1+c3XuZh5xT7x9t/1Sv9r/q5S98pl6+xN1ra0BJptqDNO6Gr5l+tndeezluRpiGYPPLHX1l6d0Jb+xitDNTsOoooguDjQwbIVNsQqGxAulN79r2bd9pSr863TBhMsVKmDM8vuG1Nut1067QDrC3Usd6emSl7ofp/PyEYlcB4ShT8W3Hz8cQZVUXGhxCwzZQVyQgNiz8OiFtA5fkMXoNn7asrAp4EdItpIrxDcutkwQkqdMcDFle0oDUGh72f42qYbfafQI=
 ```
 
-## Museum combiner v4
-**v4.7**
+## Museum combiner v5
+**v5.0**
 
-This package combines museum powerstones, *really* fast. It is very close to
-the theoretical maximum speed. On my machine, it can upgrade a stone 11 tiers
-in 1.25 seconds, and do the entire equipped grid in ~2.5 minutes.
+This package combines museum powerstones, *really* slow. It is barely faster than manually doing this. This "update" was made purely so there was a working combiner script, that didn't rely on the defunct Turbo Exec script.
 
-**This has been extensively changed for the museum update in 0.11.0.** It is
-also slower than it used to be, because the new, larger inventory has made
-combining slower.
-
-`Import code:`
+`Import Code:`
 ```
-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
+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
 ```
-**This requires `turbo exec v2.2` to function, found here: https://github.com/d0sboots/TPT2_scripts/blob/main/common/turbo_exec/README.md**
-
 ### Details
 
-To use this, import and enable all the scripts in both this package and `turbo exec`.
+To use this, import and enable all the scripts in this package.
 (You can right-click a package to quick-toggle-enable the whole package.)
-Then go to the museum and use W/S to change your *budget*.
+Then go to the museum and press "E" to enable the script.
 
-The budget is (roughly) how much will get spent to upgrade every stone in the
-grid; it's not what will get used every time. A good rule of thumb is to set
-this to the amount of Museum resources you have, or maybe a little more.
-
-Press "M" to start the combiner. (If you don't like these keys, see [the
-modification instructions](/museum/README.md) for how you can change them.)
+The script will then start iterating through every loadout slot that has a powerstone, upgrading them by 1 tier, up to a maximum set by the shop's Preferences Tier.
+It will not purchase gems above T1, so it is recommended to lock a T1 Universal slot if those are unlocked. Script may require Offshore Market to function without modification.
 
 **Once you understand how the combiner works, switch to the "Artifacts" tab
-while it is running for best speed.** It runs ~11x faster without graphics
+while it is running for best speed.** It runs ~2x faster without graphics
 (i.e. when you aren't looking at it) then when you are. You still need to be
 in the museum for it to work at all, though.
 
+(below gif is from previous version of combiner)
+
 ![The combiner running](/museum_combiner.png)
 
-### Features
-
-The combiner tries to upgrade every stone you already have in your equipped
-grid, while respecting the budget. If you want more of a particular type of
-stone, buy it from the basic market, and it will then get upgraded.
-
-Internally, it's allocating 1/100 of the budget for each stone. (So if you
-have very few stones, you can increase the budget a bit.)
-
-The "preferred tier" of the offshore market will be automatically set to the
-best value for your current budget. You can manually change it, but it will
-get overwritten when you run the combiner again.
-
-Once the combining is done, a countdown timer will show, synced to the
-offshore market's refresh. If you let the combiner sit like this, it will try
-to combine once every hour (or faster, if you are boosting the museum), to
-take advantage of new offers in the offshore market. If you don't want to do
-that, you can press "M" to cancel, or just leave the museum.
-
-Pressing "M" will also cancel a running combine. You can also exit the museum
-or turn off AI, but pressing "M" cleans up the inventory so you don't lose
-stones.
-
-The script gracefully handles running out of resources and offshore market
-rollovers. (In both cases, it continues on as best it can.) It also handles
-not having an offshore market at all (it will just use regular stones).
-
-This script uses worker-name storage to hold the budget even when AI is turned
-off. This will overwrite one of your worker's names (generally, the first one).
-If you want to use a different worker, name one of them `[museum]` and delete/rename
-the old name. You can also manually change the budget by editing the value stored
-here, which can be faster than hitting "W" or "S" a lot of times.
-
-### Why are my gems stuck at T12?
-
-The combiner can only increase tiers 11 levels. This is a time-based
-limitation: Every additional tier requires 3x as many gems, and thus takes 3x
-as long. Beyond 11, it starts taking too long to be practical.
-
-Thus, without offshore market the maximum tier will be 12. With offshore
-market you can go higher, but only when useful gems appear in the market. It
-may take a few cycles for that to happen for all your gems. (You can influence
-the chances by enabling/disabling specific elements in "Preferences" in the
-Shop.)
 
 ### Transmuting
 
@@ -214,13 +160,6 @@ unlocked, you can adjust preferences to get them to show up as often as
 needed.
 
 ### Troubleshooting
-
-The script will show some error messages for common conditions, like a
-bad/missing Turbo Exec installation. Other common issues:
-
-If the script finishes instantly, without ever doing anything (even though you
-have budget set plenty high enough): Is your Museum fully upgraded in the HQ?
-The script requires all the inventory slots to be unlocked.
 
 If the script hangs in the middle of combining: Have you bought the "Quick
 Combine" skill?
