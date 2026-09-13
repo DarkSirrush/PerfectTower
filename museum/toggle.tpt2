@@ -1,0 +1,30 @@
+:name Museum:Auto Gem
+
+:global int MaxGemSlot
+:global int GemSlot
+:global int GemTier
+:global int MaxTier
+:local int NoGem
+
+isopen("museum")
+
+MaxGemSlot = 135
+GemSlot = 0
+GemTier = 0
+MaxTier = museum.preferredTier() + 1
+NoGem = -1
+gotoif(17, tier("loadout", GemSlot) == NoGem)
+gotoif(17, tier("loadout", GemSlot) >= MaxTier)
+museum.moveTo("loadout", GemSlot, "inventory", 0)
+GemTier = tier("inventory", 0)
+executesync("Loops")
+waituntil(tier("inventory", 0) > GemTier)
+stop("Purchase")
+stop("Combine")
+museum.moveTo("inventory", 0, "loadout", GemSlot)
+waitframe()
+clear("inventory")
+GemSlot = GemSlot + 1
+gotoif(20, GemSlot <= MaxGemSlot)
+GemSlot = 0
+goto(6)

@@ -1,0 +1,6 @@
+:name Museum:Combine
+
+isopen("museum")
+
+combine(0)
+goto(0)

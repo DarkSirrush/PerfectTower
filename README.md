@@ -125,13 +125,13 @@ This script is very similar to my other autominer: It mines all layers across al
 ```
 
 ## Museum combiner v5
-**v5.0**
+**v5.1**
 
-This package combines museum powerstones, *really* slow. It is barely faster than manually doing this. This "update" was made purely so there was a working combiner script, that didn't rely on the defunct Turbo Exec script.
+This package combines museum powerstones. It is definitely faster than manually doing this. This "update" was made purely so there was a working combiner script, that didn't rely on the defunct Turbo Exec script.
 
 `Import Code:`
 ```
-3VdNj5swEP0rEdeuENBtV6qSQ7ta9bSn7a3Zg4GBWsFjZOzNRqs992dVav9YjSEbAiaA8nFYRbLij3l+M/PGNi9OEQmay8L5Mvv54pBIUo6m4yyV53mQAoKgkZtyyWmyDCM9LQlKMxuY9pNpvU6bpBkPSeaGnGduCrJlfL2UtBAKkWLqXM2c2qbeD54hUhI6NuFXJfnsO7CGSWOb4uA2rSm/ag1S0nS07WbU9XDfqJA8vwBVb4fEVAGKuYw/wUPGbUj4BCi52Fhz1s2W14Eo25uMk5grWYuhok9RWvNpDLS/JaEqPjXLKAMiDlB8cyvMeKQ3UGgLTtl+vMPYedTLQxVrClqonu7ohTHdV64fSL5Gd00x5muXFjwHtCJ+rjgaUMpylRVQoaxg44IZRsJADznatdmDJMI4l5NoRVIzfl8h6EH959uWWEI01OvVzFpVu0DaPMV78lzHsZ29v797tDgGt5mgsbKYDP6DQjvXw+CDej5KjCeojkYYhk9E6EGBiLOcCK1GLHm3bf/9qX5WX4LFwujaryOljxwEV3aDfaR3E5JsOuVKRvF83AxyuNUHESuQbi4gASEgLnmcJTVTJGZRfDXpz8+fMt/bQw/Vxoxe741CBgw6gjvBLRE0b6dO1rbUEgGmqouhO0BU53+f+pJbzkKKcMtVt3qGtb29jSqQSfaTiJnNtJbkLwZSy7HUUwPAJqVDntVa+jA29KPrAUfWwtHcg/nCSv7mCPLh+EI+07nU5+nUo+O9P+omvUpstTOV5qXqZwd+2vuk34f5KJzG83H426b32LvIK7v5vG5+Lo18XT++/gc=
+7VjdatswFH6V4NsVY6dpB2MpbGPsZh2D9W7thWwfuyK2ZPTTNJRe77EG24tNkZzMseVETtyMjhIQsazz5Tv/R3nweMxwKbj3ZvT9wUOxwJToB+9aBkEAGRBgOPYzKihOr6NYvRaICP12rNczvQatNc1yGqHcjyjN/QxEQ3hyLTBnkhBMMu9k5LVl+FaZxqvQrDWkijncQywFtJCid1LQ0ScotEhaV7SpZtzWcFOIC1q2f+CrZPEt4uBy1k7Gena5vv5AiwgTGMxwwV+kQnKQhV/QO/iWUxsSuQMiKFtYw6EdCIFdhZyihEpRxZmhj4mwhooWUOZZEjImqljGOSC2heJarSinsfoBSWzGWa6nH0ni3ajjkUwUBZUDgXpQBxO8mRThWNA58eeYJHTuY05LIFbEc8NRg+KilDkHgzKDhQ96m6AC1JZ3RbMs194sUTxDmd68NOJqU315v2KVIoXzeDJqZ2sYVEZRYUPAj+RC7042diGHQplmeK+O69HUXNfUUgY6qvgun21NyC5Kx/Ff3XH1HD/AdQ7laqOaPJVIR215kXqR+ndSR0/qz5SW/NCMhlWHMlo4l7BnVPxqbj3IUrXmb+vO5BLdV72/aYtfPzos6IJbHyp6uacP+BWG5nwyELiyigbXAohhcVuAUDGDzbEwWg1yiM1A+CWDFBiDxMLIIIavXFu6JsrMRLWN49kXqkzQRP3903xq6u68ZYQdg0UAKr9KpT2nZK15uDHxiC59955ArS/H02ndJF0YxiT/meoXU3egKmzd7xvD8u0/5+6X8o7O2J9OeNpoonxBYnvIrfuZYbWSmyMsJBE4PySaBroNhhe9XLuOoOGu4Bq6Nag8i8twy6spW3bove7JvZpmR+s5vKL0bEWulXTiXkkHqIpv3apibbx5+tFl92R5bpE8+mRZ/zvMcbS8efwD
 ```
 ### Details
 
@@ -147,7 +147,7 @@ while it is running for best speed.** It runs ~2x faster without graphics
 (i.e. when you aren't looking at it) then when you are. You still need to be
 in the museum for it to work at all, though.
 
-(below gif is from previous version of combiner)
+(below image is from previous version of combiner)
 
 ![The combiner running](/museum_combiner.png)
 

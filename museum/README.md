@@ -22,6 +22,10 @@ changing them.
 
 ## Changelog
 
+### v5.1 (Now with Threads!)
+
+Update to the bare basics script that actually runs at a reasonable speed. Still much slower than v4.7 was, but faster than manual clicking now.
+
 ### v5.0 (Simple Edition)
 
 Not really a version increase, just a very simple script to iterate through all gems and upgrade them.

@@ -1,0 +1,6 @@
+:name Museum:Purchase
+
+isopen("museum")
+
+museum.buyTier(element("inventory", 0), 1, freeSlots("inventory"))
+goto(0)

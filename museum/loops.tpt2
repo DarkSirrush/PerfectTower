@@ -1,0 +1,19 @@
+:name Museum:Loops
+
+isopen("museum")
+
+execute("Purchase")
+execute("Purchase")
+execute("Combine")
+execute("Combine")
+execute("Combine")
+execute("Combine")
+execute("Combine")
+execute("Combine")
+execute("Combine")
+execute("Combine")
+execute("Combine")
+execute("Combine")
+execute("Combine")
+execute("Combine")
+execute("Combine")
